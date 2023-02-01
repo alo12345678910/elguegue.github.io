@@ -1,0 +1,173 @@
+body {
+  text-align: center;
+  background: white;
+}
+
+p {
+  font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+a {
+  font-family: Roboto;
+  margin-bottom: 8px;
+}
+
+img {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 01);
+  margin-bottom: 10px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.descripcion {
+  font-size: 30px;
+  background: hsla(60, 100%, 49%, 1);
+  background: linear-gradient(90deg, hsla(60, 100%, 49%, 1) 0%, hsla(77, 85%, 32%, 1) 100%);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.poststext {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blog-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 40px;
+}
+
+a.verpost1 {
+  appearance: button;
+  text-decoration: none;
+}
+
+a.verpost2 {
+  appearance: button;
+  text-decoration: none;
+}
+
+.verpost1 {
+  background: rgb(87,120,120);
+  background: linear-gradient(0deg, rgba(87,120,120,1) 0%, rgba(187,217,227,1) 97%, rgba(190,217,224,1) 100%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 6px;
+  transition: box-shadow 0.15s, opacity 0.15s;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.verpost1:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3)
+}
+
+.verpost1:active {
+  opacity: 0.8;
+}
+
+.verpost2 {
+  background-image: rgb(228,208,183);
+  background-image: linear-gradient(180deg, rgba(228,208,183,1) 0%, rgba(144,205,148,1) 44%, rgba(119,141,137,1) 100%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 6px;
+  transition: box-shadow 0.15s, opacity 0.15s;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.verpost2:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3)
+}
+
+.verpost2:active {
+  opacity: 0.8;
+}
+
+.posts {
+  width: 95%;
+}
+
+.sidebar {
+  width: 5%;
+  vertical-align: top;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(250,250,0);
+  background: linear-gradient(180deg, rgba(250,250,0,1) 0%, rgba(112,150,12,1) 100%);
+  transition: all 0.3s;
+  padding: 10px;
+  height: 100%;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+aside {
+ font-weight: bold;
+}
+
+.titulop1 {
+  font-weight: bold;
+  font-size: 100px;
+  background: rgb(33,51,51);
+  background: linear-gradient(0deg, rgba(33,51,51,1) 0%, rgba(150,174,182,1) 97%, rgba(150,173,179,1) 100%);
+  padding: 50px;
+}
+
+.links {
+  text-decoration: underline;
+  color: black;
+}
+
+section {
+  margin-bottom: 10px;
+}
+
+.post1 {
+  background: rgb(33,51,51);
+background: linear-gradient(0deg, rgba(33,51,51,1) 0%, rgba(150,174,182,1) 97%, rgba(150,173,179,1) 100%);
+}
+
+.post2 {
+  background: rgb(228,208,183);
+  background: linear-gradient(0deg, rgba(228,208,183,1) 0%, rgba(111,179,113,1) 44%, rgba(119,141,137,1) 100%);
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 10px;
+}
